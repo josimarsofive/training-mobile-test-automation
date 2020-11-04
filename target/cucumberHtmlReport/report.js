@@ -101,12 +101,20 @@ formatter.examples({
       ],
       "line": 22,
       "id": "permitirá-el-ingreso-a-nuestros-clientes-al-app-validando-sus-credenciales;iniciar-sesión-a-alimarket-por-primera-vez-con-credenciales-validas;;2"
+    },
+    {
+      "cells": [
+        "34839",
+        "34839"
+      ],
+      "line": 23,
+      "id": "permitirá-el-ingreso-a-nuestros-clientes-al-app-validando-sus-credenciales;iniciar-sesión-a-alimarket-por-primera-vez-con-credenciales-validas;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 10830550032,
+  "duration": 7503655043,
   "status": "passed"
 });
 formatter.scenario({
@@ -162,10 +170,10 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginSteps.alimarketAppSeEncuentraAbierta()"
+  "location": "LoginSteps.alimarket_App_se_encuentra_abierta()"
 });
 formatter.result({
-  "duration": 1673161667,
+  "duration": 1756986123,
   "status": "passed"
 });
 formatter.match({
@@ -178,7 +186,7 @@ formatter.match({
   "location": "LoginSteps.ingresarComoElUsuarioEnLaVistaLoginDentroDelFlujoLogin(String)"
 });
 formatter.result({
-  "duration": 616212626,
+  "duration": 632244329,
   "status": "passed"
 });
 formatter.match({
@@ -191,7 +199,7 @@ formatter.match({
   "location": "LoginSteps.ingresarComoContraseñaEnLaVistaLoginDentroDelFlujoLogin(String)"
 });
 formatter.result({
-  "duration": 1410494786,
+  "duration": 1062141870,
   "status": "passed"
 });
 formatter.match({
@@ -201,14 +209,120 @@ formatter.match({
       "offset": 22
     }
   ],
-  "location": "LoginSteps.seleccionarElBotonEnLaVistaLoginDentroDelFlujoLogin(String)"
+  "location": "LoginSteps.seleccionarElBotónEnLaVistaLoginDentroDelFlujoLogin(String)"
 });
 formatter.result({
-  "duration": 628482003,
+  "duration": 605034423,
   "status": "passed"
 });
 formatter.after({
-  "duration": 318843453,
+  "duration": 370617776,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 6145808283,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 23,
+  "name": "Iniciar sesión a Alimarket por primera vez con credenciales validas",
+  "description": "",
+  "id": "permitirá-el-ingreso-a-nuestros-clientes-al-app-validando-sus-credenciales;iniciar-sesión-a-alimarket-por-primera-vez-con-credenciales-validas;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 11,
+      "name": "@HappyPath"
+    },
+    {
+      "line": 11,
+      "name": "@AM1_001"
+    },
+    {
+      "line": 11,
+      "name": "@Automatable"
+    },
+    {
+      "line": 11,
+      "name": "@josimar.leon"
+    }
+  ]
+});
+formatter.step({
+  "line": 13,
+  "name": "Alimarket App se encuentra abierta",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 14,
+  "name": "ingresar \"34839\" como el usuario en la vista login dentro del flujo login.",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 15,
+  "name": "ingresar \"34839\" como contraseña en la vista login dentro del flujo login.",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "seleccionar el botón \"Iniciar Sesión\" en la vista login dentro del flujo login.",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginSteps.alimarket_App_se_encuentra_abierta()"
+});
+formatter.result({
+  "duration": 2429958813,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "34839",
+      "offset": 10
+    }
+  ],
+  "location": "LoginSteps.ingresarComoElUsuarioEnLaVistaLoginDentroDelFlujoLogin(String)"
+});
+formatter.result({
+  "duration": 113210469,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "34839",
+      "offset": 10
+    }
+  ],
+  "location": "LoginSteps.ingresarComoContraseñaEnLaVistaLoginDentroDelFlujoLogin(String)"
+});
+formatter.result({
+  "duration": 1094331185,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Iniciar Sesión",
+      "offset": 22
+    }
+  ],
+  "location": "LoginSteps.seleccionarElBotónEnLaVistaLoginDentroDelFlujoLogin(String)"
+});
+formatter.result({
+  "duration": 566095693,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 320256077,
   "status": "passed"
 });
 });

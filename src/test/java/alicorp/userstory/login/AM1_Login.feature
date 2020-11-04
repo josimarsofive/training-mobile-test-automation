@@ -14,14 +14,16 @@ Feature: Permitirá el ingreso a nuestros clientes al app validando sus credenci
     When ingresar "<usuario>" como el usuario en la vista login dentro del flujo login.
     And ingresar "<contrasenia>" como contraseña en la vista login dentro del flujo login.
     And seleccionar el botón "Iniciar Sesión" en la vista login dentro del flujo login.
-    Then se muestra el titulo "Cambiar contraseña" en la vista cambiar contrasenia
+    #Then se muestra el titulo "Cambiar contraseña" en la vista cambiar contrasenia
 
     @uat @android
     Examples:
       |usuario|contrasenia|
       | 34839 |34839 |
+      | 34839 |34839 |
 
-    @prod @android
+
+    @prod @ios
     Examples:
       |usuario|contrasenia|
       | 34839 |34839 |

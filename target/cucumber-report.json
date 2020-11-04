@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 10830550032,
+              "duration": 7503655043,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 318843453,
+              "duration": 370617776,
               "status": "passed"
             },
             "match": {
@@ -34,19 +34,19 @@
         "steps": [
           {
             "result": {
-              "duration": 1673161667,
+              "duration": 1756986123,
               "status": "passed"
             },
             "line": 13,
             "name": "Alimarket App se encuentra abierta",
             "match": {
-              "location": "LoginSteps.alimarketAppSeEncuentraAbierta()"
+              "location": "LoginSteps.alimarket_App_se_encuentra_abierta()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 616212626,
+              "duration": 632244329,
               "status": "passed"
             },
             "line": 14,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 1410494786,
+              "duration": 1062141870,
               "status": "passed"
             },
             "line": 15,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 628482003,
+              "duration": 605034423,
               "status": "passed"
             },
             "line": 16,
@@ -100,7 +100,129 @@
                   "offset": 22
                 }
               ],
-              "location": "LoginSteps.seleccionarElBotonEnLaVistaLoginDentroDelFlujoLogin(String)"
+              "location": "LoginSteps.seleccionarElBotónEnLaVistaLoginDentroDelFlujoLogin(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@HappyPath"
+          },
+          {
+            "line": 11,
+            "name": "@AM1_001"
+          },
+          {
+            "line": 11,
+            "name": "@Automatable"
+          },
+          {
+            "line": 11,
+            "name": "@josimar.leon"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6145808283,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Iniciar sesión a Alimarket por primera vez con credenciales validas",
+        "description": "",
+        "id": "permitirá-el-ingreso-a-nuestros-clientes-al-app-validando-sus-credenciales;iniciar-sesión-a-alimarket-por-primera-vez-con-credenciales-validas;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 320256077,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2429958813,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Alimarket App se encuentra abierta",
+            "match": {
+              "location": "LoginSteps.alimarket_App_se_encuentra_abierta()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 113210469,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "ingresar \"34839\" como el usuario en la vista login dentro del flujo login.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "34839",
+                  "offset": 10
+                }
+              ],
+              "location": "LoginSteps.ingresarComoElUsuarioEnLaVistaLoginDentroDelFlujoLogin(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1094331185,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "ingresar \"34839\" como contraseña en la vista login dentro del flujo login.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "34839",
+                  "offset": 10
+                }
+              ],
+              "location": "LoginSteps.ingresarComoContraseñaEnLaVistaLoginDentroDelFlujoLogin(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 566095693,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "seleccionar el botón \"Iniciar Sesión\" en la vista login dentro del flujo login.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Iniciar Sesión",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginSteps.seleccionarElBotónEnLaVistaLoginDentroDelFlujoLogin(String)"
             },
             "keyword": "And "
           }
