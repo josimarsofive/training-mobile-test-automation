@@ -1,0 +1,134 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10830550032,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Iniciar sesión a Alimarket por primera vez con credenciales validas",
+        "description": "",
+        "id": "permitirá-el-ingreso-a-nuestros-clientes-al-app-validando-sus-credenciales;iniciar-sesión-a-alimarket-por-primera-vez-con-credenciales-validas;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 318843453,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1673161667,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Alimarket App se encuentra abierta",
+            "match": {
+              "location": "LoginSteps.alimarketAppSeEncuentraAbierta()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 616212626,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "ingresar \"34839\" como el usuario en la vista login dentro del flujo login.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "34839",
+                  "offset": 10
+                }
+              ],
+              "location": "LoginSteps.ingresarComoElUsuarioEnLaVistaLoginDentroDelFlujoLogin(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1410494786,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "ingresar \"34839\" como contraseña en la vista login dentro del flujo login.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "34839",
+                  "offset": 10
+                }
+              ],
+              "location": "LoginSteps.ingresarComoContraseñaEnLaVistaLoginDentroDelFlujoLogin(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 628482003,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "seleccionar el botón \"Iniciar Sesión\" en la vista login dentro del flujo login.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Iniciar Sesión",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginSteps.seleccionarElBotonEnLaVistaLoginDentroDelFlujoLogin(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@HappyPath"
+          },
+          {
+            "line": 11,
+            "name": "@AM1_001"
+          },
+          {
+            "line": 11,
+            "name": "@Automatable"
+          },
+          {
+            "line": 11,
+            "name": "@josimar.leon"
+          }
+        ]
+      }
+    ],
+    "name": "Permitirá el ingreso a nuestros clientes al app validando sus credenciales",
+    "description": "para que solo tengan la información correspondiente.",
+    "id": "permitirá-el-ingreso-a-nuestros-clientes-al-app-validando-sus-credenciales",
+    "keyword": "Feature",
+    "uri": "src/test/java/alicorp/userstory/login/AM1_Login.feature"
+  }
+]
